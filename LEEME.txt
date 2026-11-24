@@ -1,0 +1,8 @@
+PORTAFOLIO JOSEFINA RIFFO — RESPONSIVE
+
+Para GitHub/Vercel: subir index.html y las carpetas assets/ y proyectos/ sin cambiar rutas ni nombres.
+Móvil: menos de 700px; Tablet: 700–1199px; Escritorio: 1200px en adelante.
+Las composiciones aprobadas se incorporan como archivos originales sin cambios de píxeles.
+Las áreas transparentes encima de los botones y proyectos activan los enlaces, menús y galerías.
+El CV se encuentra en assets/CV_JOSEFINARIFFO.pdf
+No elimines la carpeta proyectos/imagenes porque contiene los 18 archivos originales.

@@ -1,0 +1,7 @@
+PORTAFOLIO DE JOSEFINA — INSTRUCCIONES
+
+OPCIÓN 1 — Archivo único: abre portafolio_josefina_ARCHIVO_UNICO.html directamente desde Descargas; no necesita carpetas de imágenes.
+
+OPCIÓN 2 — GitHub/Vercel (recomendada): extrae TODO el ZIP; sube index.html, assets/ y proyectos/ manteniendo las carpetas. NO muevas index.html por separado.
+
+Todas las imágenes originales están intactas. El HTML es el que conecta los menús, galerías, CV, LinkedIn, correo y teléfono.

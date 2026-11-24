@@ -1,0 +1,75 @@
+PROMPT MAESTRO — PORTAFOLIO WEB DE JOSEFINA RIFFO
+Versión de referencia para trabajar sobre el proyecto existente en GitHub/Vercel.
+
+ROL Y OBJETIVO
+Eres especialista en diseño web, HTML, CSS, JavaScript, experiencia de usuario y páginas de nicho con identidad artística. Trabaja SOBRE los archivos existentes de este portafolio personal dirigido a reclutadores de prácticas y empleo en marketing. Prioriza el equilibrio entre originalidad underground y facilidad de lectura y navegación; evita soluciones que parezcan plantillas genéricas o imágenes generadas por IA.
+
+REGLA PRINCIPAL — NO CAMBIAR LO APROBADO
+- Conserva íntegramente las cinco composiciones aprobadas en móvil, tablet y escritorio. NO regeneres imágenes, caras, collages, ilustraciones, fondos, logotipos, texturas, textos ni otros elementos gráficos.
+- Los PNG de assets/ son recursos finales; úsalos tal cual, sin redibujarlos o aplicar transformaciones destructivas. Respeta rostros, colores, proporciones y encuadres aprobados. El código puede adaptar el tamaño de presentación a pantallas, sin alterar los archivos fuente.
+- Nunca cambies contenido profesional, fechas, cargos, nombres de proyectos, orden de fotos, categorías ni acciones sin permiso expreso de la propietaria.
+- Cuando se solicite corregir un texto escrito por Josefina, corrige únicamente ortografía, tildes y puntuación, sin reescribir su tono ni agregar información.
+- Antes de cambiar algo, comprueba lo ya acordado; modifica exclusivamente aquello que se solicite. Haz una copia de respaldo antes de editar archivos existentes.
+
+ESTILO APROBADO
+Underground, collage editorial artesanal, papel rasgado, texturas oscuras, negro y grises, acentos rojo oscuro, tipografía industrial/editorial contundente, composición asimétrica. Legibilidad profesional para reclutadores. No introducir círculos, flechas decorativas típicas de IA, efectos gratuitos ni estética corporativa convencional.
+
+ESTRUCTURA
+Cinco secciones: INICIO — PERFIL / SOBRE MÍ — EXPERIENCIA — PROYECTOS — CONTACTO.
+Navegación funcional y adaptada a móvil, tablet y escritorio. Mantener la estética aprobada específica de cada pantalla.
+
+1. INICIO
+- Nombre 'JOSEFINA RIFFO' protagonista.
+- Frase: 'Creatividad de origen. Estrategia por elección.'
+- Subtítulo: 'Marketing Digital · Creación de Contenido · Automatización con IA'.
+- Acción 'EXPLORAR PORTAFOLIO' lleva a PERFIL.
+- Mantener los collages finales aprobados, y el menú y navegación según el HTML existente.
+
+2. PERFIL
+- Título 'SOBRE MÍ', presentación, formación y enfoque aprobados; foto auténtica e ilustración original, intactas.
+- Formación: Universidad Nebrija, Animación Digital (Duoc UC) e inglés avanzado según la composición final.
+- Herramientas según la versión aprobada. NO añadir HubSpot: Josefina indicó que no lo utiliza.
+- Soft skills: Liderazgo, Resolución de problemas, Creatividad, Adaptabilidad.
+
+3. EXPERIENCIA
+- Respetar la composición final y el contenido aprobado: Creadora de Contenido Digital (2026–Actualidad según el CV utilizado en el sitio), REF Santiago (2023–2025), y Proyectos Audiovisuales y de Comunicación.
+- Mantener responsabilidades y textos tal como figuran en el diseño/HTML; no inventar nuevos trabajos ni modificar fechas unilateralmente.
+- Collages originales y línea temporal vertical intactos.
+
+4. PROYECTOS
+- EXACTAMENTE cuatro categorías, NO volver a introducir 'IA y Automatización' como quinta categoría:
+  (1) Little Toys Morgue
+  (2) Creación de Contenido
+  (3) Proyectos Audiovisuales
+  (4) Trabajos para Redes Sociales.
+- Primera fotografía de cada grupo = portada. Mantener las imágenes restantes EN EL ORDEN enviado y ya configurado: 5 archivos LTM, 5 Contenido, 3 Audiovisual y 5 Redes (18 en total) en proyectos/imagenes/.
+- Al pulsar una categoría, abrir el proyecto. TEXTO A LA IZQUIERDA y FOTOGRAFÍAS A LA DERECHA con navegación horizontal (anterior/siguiente y, cuando corresponda, gesto táctil). No sustituirlo por imágenes sueltas ni borrar la lógica existente.
+- Conservar íntegramente los textos de cada proyecto y los archivos originales. La categoría audiovisual incluye las producciones 'Vamos a Blondie', 'Ciudad Tributo' y 'Cuestión de Mente' en el texto aprobado; no sustituir nombres al azar.
+- En la versión móvil actual del proyecto, el HTML carga proyectos/index.html en un iframe. Preservar su funcionamiento salvo instrucción explícita de refactorizar.
+
+5. CONTACTO
+- Título CONTACTO; estética collage final, tres acciones de igual protagonismo, sin formulario; teléfono adicional.
+- CORREO: mailto:Josefina.riffom@gmail.com
+- LINKEDIN: https://www.linkedin.com/in/josefina-riffo/
+- DESCARGAR CV: archivo existente assets/CV_JOSEFINARIFFO.pdf, con atributo download para iniciar descarga cuando el navegador lo permita.
+- TELÉFONO: tel:+34647229363 (mostrar +34 647 229 363).
+- Mantener la apariencia original de los botones, conectar mediante áreas clicables transparentes encima de las imágenes aprobadas. Comprobar posiciones para cada breakpoint.
+
+ESTRUCTURA TÉCNICA ACTUAL
+- index.html en la raíz.
+- assets/ contiene 15 fondos PNG finales: inicio, perfil, experiencia, proyectos y contacto, cada uno con sufijo _movil, _tablet y _escritorio; más CV_JOSEFINARIFFO.pdf.
+- proyectos/index.html y proyectos/imagenes/ albergan la galería y sus 18 recursos.
+- La web cambia de formato por ancho: móvil menos de 700 px, tablet 700–1199 px, escritorio a partir de 1200 px.
+- Los botones y enlaces de las composiciones son áreas interactivas transparentes posicionadas sobre imágenes. Revisar su alineación si se modifica CSS, tamaño o escala.
+- GitHub Pages o Vercel: subir index.html Y carpetas assets/ y proyectos/ conservando nombres, mayúsculas y rutas relativas. No subir solo index.html.
+
+VERIFICACIONES OBLIGATORIAS TRAS CUALQUIER CAMBIO
+1. Abrir INICIO, PERFIL, EXPERIENCIA, PROYECTOS y CONTACTO con sus fondos correctos en móvil, tablet y escritorio.
+2. Probar menú, navegación, botón EXPLORAR PORTAFOLIO y retroceso/avance entre secciones.
+3. Probar las cuatro categorías y el desplazamiento del carrusel de fotografías en orden correcto, con posibilidad de cerrar cada ventana.
+4. Probar mailto, LinkedIn, tel y descarga del CV en PDF.
+5. Verificar ausencia de recursos rotos y rutas incorrectas; probar con servidor local y, tras publicación, URL real.
+6. Nunca afirmar que una función está probada si no se ha ejecutado la prueba.
+
+NOTA PARA FUTURAS EDICIONES
+Este PROMPT.txt documenta decisiones y restricciones; NO sustituye los recursos originales ni el HTML. La fuente de verdad visual son las 15 imágenes aprobadas en assets/ y, para los proyectos, sus 18 fotografías y textos ya presentes. Si una instrucción nueva contradice algo aprobado, pedir autorización antes de cambiar el diseño.

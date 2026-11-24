@@ -1,0 +1,9 @@
+PORTAFOLIO DE JOSEFINA RIFFO - VERSION LIGERA PARA GITHUB
+
+1. No subas el ZIP directamente a GitHub.
+2. Extrae este ZIP. Sube index.html y las carpetas assets y proyectos (tambien los TXT si quieres).
+3. Las 15 imagenes de las pantallas estan en WebP para reducir peso.
+4. IMPORTANTE: si ya subiste index.html, debes reemplazarlo por ESTE index.html porque las rutas ahora apuntan a archivos .webp.
+5. No cambies los nombres ni las carpetas.
+6. No subas archivos PNG antiguos de assets junto con estos nuevos WebP; para evitar confusiones.
+7. En GitHub haz Commit changes y luego prueba el despliegue de Vercel.
